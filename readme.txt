@@ -26,7 +26,7 @@ For extra credit question 1, the execution for combination of single commands is
 For extra credit question 2, the prompt information is modified to show the current working directory. This is done by self-defined getCurrDir() function, with getcwd() to retrieve the absolute path of current working directory and strstr() to search "/home/username" from the path and then replace it by "~".
 
 
-# Sample Tests
+# Sample Tests:
 ls -l
 cat readme.txt
 ls -al /usr/src
